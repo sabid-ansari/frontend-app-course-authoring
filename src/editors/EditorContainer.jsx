@@ -10,7 +10,6 @@ const EditorContainer = ({
   const { blockType, blockId } = useParams();
   return (
     <div className="editor-page">
-      {/* coming here */}
       <EditorPage
         courseId={courseId}
         blockType={blockType}
